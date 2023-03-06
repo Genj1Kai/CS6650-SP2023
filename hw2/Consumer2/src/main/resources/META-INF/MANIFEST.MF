@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Main-Class: example.RecvMT
+Class-Path: slf4j-api-1.7.36.jar amqp-client-5.16.0.jar
+
