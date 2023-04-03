@@ -24,9 +24,6 @@ public class DynamoDbConn {
   private DynamoDbClient client;
   public DynamoDbConn() {
 //    AwsCredentialsProvider credentialsProvider = SystemPropertyCredentialsProvider.create();
-    System.setProperty("aws.accessKeyId", "ASIAUACATOIXU5ATLDOL");
-    System.setProperty("aws.secretAccessKey", "SOvzZ+n7K2Qn7S2PQRO5JJEZfUOLq7tGHc6sim9k");
-    System.setProperty("aws.sessionToken", "FwoGZXIvYXdzEPv//////////wEaDJ7i5sNiQLi1RB3gpiLLAZGc2o8gcxbK7zUInpLlRfXxG1MC+yk8GbCmdLtRaMgDtMI8gkNq6ux9wZb7jf9H664LwFclp/4mJIFR7uEYXThd0JbZ8OQKAG3QN5wxkIGUiHhSLyKLWtql6EXGSqLBuTkIAwx4s/KGAzLfh5Zu/a+N72DK9xqTnnN7sSeFhOrR5Fot4raSQmktvWBqjgl2b2YvR/MSXeqvtylv5sIXxgDoawYMQGBU+BrbblDuGGDjJSqvdbqV6AsHnMwqajtGkc+NnCt7jpxtgd/iKJeFp6EGMi3hQwNwiT4ib7nX9sTjt5/daCmXwDHAiiarg2wJuR5qO5wyAiDTR+deuA1bsw8=");
     Region region = Region.US_WEST_2;
     client = DynamoDbClient.builder()
         .region(region)
